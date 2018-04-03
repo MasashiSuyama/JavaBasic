@@ -12,11 +12,10 @@ public class PTra08_02 {
 		int x = 100;
 		int y = 50;
 
-		// ★ 変数receiveを宣言して、averageメソッドを（変数x, 変数y）で呼び出した結果を代入してください
-
-
+		// ★ 変数receiveを宣言して、av変数x, 変数y）で呼び出した結果を代入してくださいerageメソッドを（
+		String receive = average(x, y);
 		// ★ 変数receiveを出力してください
-
+		System.out.println(receive);
 	}
 
 	/*
