@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-import entity.Player;
+import practice18.entity.Player;
 
 public class PTra18_04 {
 
@@ -61,7 +61,9 @@ public class PTra18_04 {
 					fw.add(player);
 				}
 		}
-		System.out.println(gk.get(0));
+		for(int i = 0 ; i < 1 ; i++) {
+			System.out.println(gk.get(i));
+		}
 		for(int i = 0 ; i < 4 ; i++) {
 			System.out.println(df.get(i));
 		}

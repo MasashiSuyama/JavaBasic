@@ -11,7 +11,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import entity.Player;
+import practice18.entity.Player;
 
 public class PTra18_02 {
 
@@ -60,7 +60,7 @@ public class PTra18_02 {
 		// ※ できれば拡張for文を使いましょう
 
 		for(Player player: array) {
-			System.out.println(player.toString());
+			System.out.println(player);
 		}
 	}
 }

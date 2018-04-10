@@ -1,4 +1,4 @@
-package entity;
+package practice18.entity;
 
 public class Player {
 	private String position;
@@ -34,3 +34,4 @@ public class Player {
 		return this.position +","+ this.name +","+ this.country +","+ this.team;
 	}
 }
+

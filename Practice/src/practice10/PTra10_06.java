@@ -47,24 +47,6 @@ public class PTra10_06 {
 				System.out.println("目的地に到達できませんでした");
 			}
 		}
-/*		 while分を使わない書き方(PTra10_05参考)
-/*		for(int i = 0 ; i < car.length ; i++) {
-			int sum = 0;		//総移動距離
-			for(int j = 1 ;; j++) {
-				int a = car[i].run();	//移動距離
-				if(a == -1) {		//ガソリン不足
-					System.out.print((i + 1) +"台目の"+ car[i].color +"色の自動車は");
-					System.out.println("目的地に到達できませんでした");
-					break;
-				}
-			sum += a;
-				if(sum >= distance) {
-					System.out.print((i + 1) +"台目の"+ car[i].color +"色の自動車は");
-					System.out.println("目的地にまで"+ j +"時間かかりました。残りのガソリンは"
-							+ car[i].gasoline  +"リットルです");
-					break;
-				}
-			}
-		}	*/
+
 	}
 }

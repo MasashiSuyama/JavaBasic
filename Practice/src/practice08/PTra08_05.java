@@ -39,6 +39,8 @@ public class PTra08_05 {
 			case 2:
 				System.out.println("三角形の面積"+ triangle(width, height));
 				break;
+			default	:
+				System.out.println("正しい値が入力されませんでした");
 		}
 	}
 

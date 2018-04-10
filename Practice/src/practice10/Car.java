@@ -5,10 +5,10 @@ public class Car {
 	String color;
 	int gasoline;
 	public int run() {
-		gasoline--;
-		if(gasoline < 0) {
+		if(gasoline == 0) {
 			return -1;
 		} else {
+			gasoline--;
 			int a = new java.util.Random().nextInt(15) +1;	//移動距離
 			return a;
 		}

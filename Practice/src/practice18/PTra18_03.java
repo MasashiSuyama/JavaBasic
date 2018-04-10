@@ -11,7 +11,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import entity.Player;
+import practice18.entity.Player;
 
 public class PTra18_03 {
 
@@ -44,15 +44,16 @@ public class PTra18_03 {
         }
 
 		for(int i = array.size() - 1 ; i >= 0 ; i-- ) {
-			if(array.get(i).getTeam().equals("レアル・マドリード") ||
-					array.get(i).getTeam().equals("バルセロナ")) {
-			array.remove(i);
+			Player player = array.get(i);
+			String team = player.getTeam();
+			if(team.equals("レアル・マドリード") || team.equals("バルセロナ")) {
+				array.remove(i);
 			}
 		}
 
 		// ★ 削除後のArrayListの中身を全件出力してください
 		for(Player player: array) {
-			System.out.println(player.toString());
+			System.out.println(player);
 		}
 
 	}
